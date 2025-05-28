@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>tx_create_zugferd</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TXTextControl.TextControl.ASP.SDK" Version="31.0.1" />
+    <PackageReference Include="TXTextControl.TextControl.ASP.SDK" Version="33.0.1" />
     <PackageReference Include="ZUGFeRD-csharp" Version="10.0.0" />
   </ItemGroup>
 
